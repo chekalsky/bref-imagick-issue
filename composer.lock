@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7236ac9842380897c5c87850ca1dd872",
+    "content-hash": "8af1de0de43d77ea3889d692443537cb",
     "packages": [
         {
             "name": "async-aws/core",
@@ -198,26 +198,28 @@
         },
         {
             "name": "bref/extra-php-extensions",
-            "version": "0.6.3",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/brefphp/extra-php-extensions.git",
-                "reference": "872f9f4b4bd39284853745c5a0eb17de476e3965"
+                "reference": "744c5e967ae8c6b2e0dd6b135f886b73dde3b5e8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/brefphp/extra-php-extensions/zipball/872f9f4b4bd39284853745c5a0eb17de476e3965",
-                "reference": "872f9f4b4bd39284853745c5a0eb17de476e3965",
+                "url": "https://api.github.com/repos/brefphp/extra-php-extensions/zipball/744c5e967ae8c6b2e0dd6b135f886b73dde3b5e8",
+                "reference": "744c5e967ae8c6b2e0dd6b135f886b73dde3b5e8",
                 "shasum": ""
             },
             "conflict": {
                 "bref/bref": "<0.100.0"
             },
             "require-dev": {
-                "async-aws/lambda": "^1.0",
+                "async-aws/core": "^1.7@dev",
+                "async-aws/lambda": "^1.1",
                 "mnapoli/silly": "^1.7",
                 "mnapoli/silly-php-di": "^1.2",
                 "symfony/finder": "^5.0",
+                "symfony/http-client": "^5.2@rc",
                 "symfony/process": "^5.0"
             },
             "type": "library",
@@ -238,7 +240,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-11-25T07:27:09+00:00"
+            "time": "2020-11-27T08:50:38+00:00"
         },
         {
             "name": "hollodotme/fast-cgi-client",
@@ -2002,7 +2004,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "bref/extra-php-extensions": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

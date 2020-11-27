@@ -1,6 +1,6 @@
 {
     "require": {
         "bref/bref": "^1.0",
-        "bref/extra-php-extensions": "^0.6.3"
+        "bref/extra-php-extensions": "^0.7"
     }
 }
