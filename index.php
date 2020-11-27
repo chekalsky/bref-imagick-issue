@@ -6,3 +6,4 @@ if (class_exists('Imagick')) {
     echo '🔴 Imagick is not installed';
 }
 
+phpinfo();

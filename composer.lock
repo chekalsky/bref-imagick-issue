@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8af1de0de43d77ea3889d692443537cb",
+    "content-hash": "92aa8ed0e862d7126aecc2c340657952",
     "packages": [
         {
             "name": "async-aws/core",
@@ -198,7 +198,7 @@
         },
         {
             "name": "bref/extra-php-extensions",
-            "version": "dev-master",
+            "version": "0.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/brefphp/extra-php-extensions.git",
@@ -2004,9 +2004,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "bref/extra-php-extensions": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
